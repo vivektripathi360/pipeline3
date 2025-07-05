@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vivek - Public Figure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ff6ec4, #7873f5);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      font-weight: 400;
+      margin-bottom: 30px;
+      color: #f8f8f8;
+    }
+
+    .socials a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+    }
+
+    .socials a:hover {
+      transform: scale(1.2);
+      color: #ffeb3b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Vivek</h1>
+    <h2>Public Figure | Motivator | Dream Chaser</h2>
+    <p>Follow me on social media:</p>
+    <div class="socials">
+      <a href="#" title="Instagram">📸</a>
+      <a href="#" title="Twitter">🐦</a>
+      <a href="#" title="LinkedIn">💼</a>
+      <a href="#" title="YouTube">📹</a>
+    </div>
+  </div>
+</body>
+</html>
+
